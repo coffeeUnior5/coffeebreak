@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="main">Почувствуй себя бариста!</string>
+    <string name="btmmain">Любой кофе под ваш заказ</string>
+</resources>
