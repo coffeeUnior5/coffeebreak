@@ -7,14 +7,14 @@
     tools:context=".WelcomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+        <TextView
         android:id="@+id/welcometext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/greenrectangle"
         android:layout_marginTop="25dp"
         android:text="@string/main"
-        android:textColor="#181D2D"
+        android:textColor="@color/colortext"
         android:textSize="28dp"
         android:textFontWeight="400"
         android:gravity="center"
@@ -23,6 +23,7 @@
         />
     \
     <TextView
+        android:id="@+id/welcometext2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/welcometext"
@@ -44,13 +45,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        >
-
-    </TextView>
 
     <ImageView
         android:id="@+id/coffee"
@@ -73,7 +67,7 @@
         android:text="Coffee break"
         android:textSize="64dp"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/Redressed_Regular"
+        android:fontFamily="@font/redressed_regular"
         app:layout_constraintTop_toBottomOf="@id/coffee"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,20 +80,34 @@
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="595dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcometext2"
+        android:layout_marginTop="43dp"
+        android:layout_marginHorizontal="151dp">
 
 
         <View
+            android:id="@+id/first"
             android:layout_width="33dp"
             android:layout_height="10dp"
-            android:background="#14AC46"
+            android:background="@drawable/green_rectangle2"
             />
         
         <View
+            android:id="@+id/second"
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:background="#324A5933"/>
+            android:background="@drawable/gray_circle"
+            android:layout_marginStart="10dp"
+            />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/gray_circle"
+            android:layout_marginStart="10dp"
+            />
 
     </LinearLayout>
 

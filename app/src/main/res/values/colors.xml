@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="primary">#595656</color>
+    <color name="colortext">#181D2D</color>
+    <color name="enter">#147F37</color>
+    <color name="welcome">#324A59</color>
 </resources>
