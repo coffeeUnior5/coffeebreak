@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="primary">#EDECEC</color>
+    <color name="colortext">#FFFFFF</color>
+    <color name="enter">#4F7993</color>
+    <color name="welcome">#A1A1A1</color>
+
 </resources>

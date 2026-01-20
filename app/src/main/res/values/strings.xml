@@ -5,8 +5,11 @@
     <string name="main">Почувствуй себя бариста!</string>
     <string name="btmmain">Любой кофе под ваш заказ</string>
     <string name="text">Coffee break</string>
-    
-    
+    <string name="enter">Войти</string>
+    <string name="emailedt">Адрес электронной почты </string>
+    <string name="welcone">Добро пожаловать</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
