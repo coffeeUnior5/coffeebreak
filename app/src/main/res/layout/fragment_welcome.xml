@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WelcomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/greenrectangle"
+        android:layout_marginTop="25dp"
+        android:text="@string/main"
+        android:textColor="#181D2D"
+        android:textSize="28dp"
+        android:textFontWeight="400"
+        android:gravity="center"
+        android:layout_marginHorizontal="68dp"
+
+        />
+    \
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/welcometext"
+        app:layout_constraintStart_toStartOf="@id/welcometext"
+        app:layout_constraintEnd_toEndOf="@id/welcometext"
+        android:text="@string/btmmain"
+        android:textColor="#AAAAAA"
+        android:textSize="18dp"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/greenrectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:src="@drawable/green_rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coffee_image"
+        app:layout_constraintTop_toTopOf="@id/greenrectangle"
+        app:layout_constraintStart_toStartOf="@id/greenrectangle"
+        app:layout_constraintEnd_toEndOf="@id/greenrectangle"
+        app:layout_constraintBottom_toBottomOf="@id/greenrectangle"
+        android:layout_marginBottom="162dp"
+        android:layout_marginTop="62dp"
+       >
+
+    </ImageView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee break"
+        android:textSize="64dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/Redressed_Regular"
+        app:layout_constraintTop_toBottomOf="@id/coffee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="54dp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="595dp">
+
+
+        <View
+            android:layout_width="33dp"
+            android:layout_height="10dp"
+            android:background="#14AC46"
+            />
+        
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="#324A5933"
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

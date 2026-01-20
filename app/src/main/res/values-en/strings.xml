@@ -5,6 +5,8 @@
     <string name="password">Password</string>
     <string name="main">!</string>
     <string name="btmmain">Любой кофе под ваш заказ</string>
+    <string name="text">Coffee break</string>
+
 
 
 </resources>
