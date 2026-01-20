@@ -99,7 +99,7 @@
         <View
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:background="#324A5933"
+            android:background="#324A5933"/>
 
     </LinearLayout>
 
