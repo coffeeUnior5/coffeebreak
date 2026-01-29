@@ -19,5 +19,30 @@
         android:id="@+id/authorizationFragment"
         android:name="com.example.coffee.AuthorizationFragment"
         android:label="fragment_authorization"
-        tools:layout="@layout/fragment_authorization" />
+        tools:layout="@layout/fragment_authorization" >
+        <action
+            android:id="@+id/action_authorizationFragment_to_registrationFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.coffee.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+
+    </fragment>
+
+
+
+
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.coffee.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
 </navigation>

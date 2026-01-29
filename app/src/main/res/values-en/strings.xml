@@ -9,9 +9,14 @@
     <string name="enter">Войти</string>
     <string name="welcone">Добро пожаловать</string>
     <string name="emailedt">Адрес электронной почты </string>
-
-
-
+    <string name="forgotpass">Forgot password?</string>
+    <string name="loginusing">Log in using</string>
+    <string name="firsttime">first time?</string>
+    <string name="reg">Зарегистрироваться.</string>
+    <string name="createaccount">Создать аккаунт здесь</string>
+    <string name="phonenum">Номер мобильного телефона</string>
+    <string name="name">Имя пользователя</string>
+    <string name="regtext">Регистрируясь, вы соглашаетесь с нашими условиями использования</string>
 
 
 </resources>

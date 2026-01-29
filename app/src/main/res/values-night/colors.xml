@@ -7,5 +7,6 @@
     <color name="colortext">#FFFFFF</color>
     <color name="enter">#4F7993</color>
     <color name="welcome">#A1A1A1</color>
+    <color name="forgotpass">#324A59</color>
 
 </resources>
